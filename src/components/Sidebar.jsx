@@ -13,6 +13,7 @@ export default function Sidebar() {
       items: [
         { name: 'Homepage', path: '/', icon: '🏠' },
         { name: 'Navbar', path: '/navbar', icon: '🧭' },
+        { name: 'Promo Banner', path: '/promo-banner', icon: '🥇' },
         { name: 'Discount', path: '/discount', icon: '🎨' },
         { name: 'Search Bar', path: '/searchbar', icon: '🔍' },
         { name: 'Product', path: '/product', icon: '🥻' },
