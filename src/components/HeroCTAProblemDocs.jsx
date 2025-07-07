@@ -101,32 +101,6 @@ export default function HeroCTAProblemDocs() {
             </ul>
           </div>
 
-          <div className='bg-yellow-50 border-l-4 border-yellow-400 p-6'>
-            <h3 className='text-lg font-semibold text-yellow-800 mb-3'>
-              Conversion Rate Impact
-            </h3>
-            <ul className='text-yellow-700 space-y-2 ml-4'>
-              <li>
-                • Primary call-to-action becomes completely non-functional
-              </li>
-              <li>
-                • Mobile users (who represent the majority of e-commerce
-                traffic) face additional usability barriers
-              </li>
-              <li>
-                • Users may assume the website is broken or poorly maintained
-              </li>
-              <li>
-                • Potential customers may leave the site before discovering
-                working navigation elements
-              </li>
-              <li>
-                • Mobile conversion rates suffer disproportionately due to poor
-                touch interaction
-              </li>
-            </ul>
-          </div>
-
           <div className='bg-blue-50 border-l-4 border-blue-400 p-6'>
             <h3 className='text-lg font-semibold text-blue-800 mb-3'>
               Technical Issues on Mobile
