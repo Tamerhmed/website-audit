@@ -5,7 +5,7 @@ export default function ShoppingBag() {
   return (
     <div className='max-w-4xl mx-auto p-6 bg-white'>
       <h1 className='text-3xl font-bold text-gray-900 mb-6'>
-        TakingShape Shopping Bag & Checkout
+        Shopping Bag & Checkout
       </h1>
 
       <div className='mb-8'>
