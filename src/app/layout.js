@@ -13,9 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: 'Tamer Ahmed | Frontend Developer & Educator',
-  description:
-    'Portfolio of Tamer Ahmed – Frontend Developer and JavaScript Educator based in Melbourne, building accessible, responsive web apps with React, Next.js, and modern web technologies.',
+  title: 'Website Audit',
+  description: 'Website Audit',
 };
 
 export default function RootLayout({ children }) {
@@ -24,17 +23,6 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* <div className='min-h-screen bg-white text-black relative overflow-x-hidden'> */}
-        {/* Background pattern or gradient can be added here */}
-        {/* <div className='absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-900 to-slate-900' /> */}
-        {/* Content */}
-        {/* <div className='relative z-10 px-4 md:px-0'>
-            <div>
-              <Sidebar />
-            </div>
-            {children}
-          </div>
-        </div> */}
         <Layout>{children}</Layout>
       </body>
     </html>

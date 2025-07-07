@@ -16,6 +16,7 @@ export default function Sidebar() {
         { name: 'Discount', path: '/discount', icon: '🎨' },
         { name: 'Search Bar', path: '/searchbar', icon: '🔍' },
         { name: 'Product', path: '/product', icon: '🥻' },
+        { name: 'Shopping Bag', path: '/shopping-bag', icon: '🛒' },
       ],
     },
     // {

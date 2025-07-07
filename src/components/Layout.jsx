@@ -7,18 +7,18 @@ export default function Layout({ children }) {
 
   const getPageTitle = () => {
     switch (pathname) {
-      case '/components/navbar':
+      case '/navbar':
         return 'Navbar Component';
-      case '/components/banner':
-        return 'Main Banner Component';
-      case '/components/search':
+      case '/product':
+        return 'Product';
+      case '/searchbar':
         return 'Search Bar Component';
-      case '/issues/discount':
+      case '/discount':
         return 'Discount Issues';
-      case '/issues/layout':
-        return 'Layout Issues';
-      case '/issues/responsive':
-        return 'Responsive Issues';
+      case '/shopping-bag':
+        return 'Shopping Bag';
+      case '/':
+        return 'My Website Journey & Feedback';
       case '/dashboard':
         return 'Dashboard';
       case '/analytics':
@@ -44,7 +44,7 @@ export default function Layout({ children }) {
                 {getPageTitle()}
               </h2>
               <p className='text-gray-600 text-sm mt-1'>
-                Manage and monitor your components
+                Comprehensive Website Component Management and Monitoring
               </p>
             </div>
             <div className='flex items-center space-x-4'>
