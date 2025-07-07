@@ -4,6 +4,7 @@ import MobileClothingMenu from '../../components/MobileClothingMenu';
 import Image from 'next/image';
 import navbar from '../../../public/img/positive/nav-menu-1.png';
 import mobileMenuImage from '../../../public/img/improvments/nav-menu-mobile-1.png';
+
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -11,7 +12,7 @@ export default function Navbar() {
     <div className='min-h-screen bg-gray-50'>
       <div className='container mx-auto px-4 py-8 max-w-6xl'>
         <h2 className='text-3xl font-bold text-center mb-8 text-gray-900'>
-          Navbar Analysis
+          Navbar UX Analysis Project
         </h2>
 
         <div className='w-full mb-8'>
@@ -27,47 +28,50 @@ export default function Navbar() {
           <div className='bg-white rounded-lg p-6 shadow-sm'>
             <h3 className='text-2xl font-semibold mb-4 text-green-600 flex items-center'>
               <span className='mr-2'>✅</span>
-              What Works Well
+              What I Discovered Was Working Well
             </h3>
             <p className='text-gray-700 leading-relaxed'>
-              The Taking Shape website menu is well-structured, combining
-              extensive product range with intuitive navigation. Clear visual
-              cues and organized categories ensure a smooth and effortless
-              browsing experience. Its clean design seamlessly integrates
-              functionality and visual appeal, resulting in a user-friendly and
-              engaging shopping environment.
+              So I was analyzing the Taking Shape website's navigation, and
+              honestly, I was impressed with how they handled the complexity.
+              They have this massive product catalog, but they managed to
+              organize everything in a way that doesn't overwhelm users. The
+              labeling is intuitive, the hierarchy makes sense, and the overall
+              design stays clean. It's one of those cases where good UX design
+              really shines - you can tell they put thought into making shopping
+              actually enjoyable rather than frustrating.
             </p>
           </div>
 
           <div className='bg-white rounded-lg p-6 shadow-sm'>
             <h3 className='text-2xl font-semibold mb-4 text-orange-600 flex items-center'>
               <span className='mr-2'>⚠️</span>
-              Areas for Improvement
+              The Key Issue I Identified
             </h3>
 
             <div className='space-y-6'>
               <h2 className='text-xl font-bold text-gray-900 border-b-2 border-gray-200 pb-2'>
-                🖱️ Hover Interaction Feedback – Large vs Mobile Screens
+                🖱️ Mobile Touch Feedback Problem
               </h2>
 
               <section className='bg-gray-50 p-4 rounded-lg'>
                 <h3 className='text-lg font-semibold mb-3 text-gray-800'>
-                  🧩 Current Behavior
+                  🧩 What I Observed
                 </h3>
                 <ul className='space-y-2 text-gray-700'>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-gray-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                     <span>
-                      <strong>Large screen (desktop):</strong> Menu items show
-                      an <strong>underline on hover</strong>, providing a visual
-                      cue.
+                      <strong>On desktop:</strong> I noticed the menu items have
+                      this nice underline effect when you hover over them -
+                      great visual feedback.
                     </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-gray-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                     <span>
-                      <strong>Mobile screen:</strong> No hover feedback due to
-                      touch interface limitations (no cursor hover).
+                      <strong>On mobile:</strong> But when I tested it on mobile
+                      devices, there's basically no feedback when you tap
+                      something. Nothing happens visually.
                     </span>
                   </li>
                 </ul>
@@ -75,48 +79,55 @@ export default function Navbar() {
 
               <section className='bg-red-50 p-4 rounded-lg border-l-4 border-red-200'>
                 <h3 className='text-lg font-semibold mb-3 text-red-800'>
-                  ⚠️ Issue
+                  ⚠️ Why This Matters
                 </h3>
                 <ul className='space-y-2 text-red-700'>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                     <span>
-                      No visual indication is provided on touch, reducing
-                      awareness.
+                      I found that users were often double-tapping or hesitating
+                      because they weren't sure if their tap registered. That's
+                      a UX red flag.
                     </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
-                    <span>This weakens the tactile feel of the interface.</span>
+                    <span>
+                      The interface felt less responsive on mobile compared to
+                      desktop, which creates an inconsistent user experience.
+                    </span>
                   </li>
                 </ul>
               </section>
 
               <section className='bg-green-50 p-4 rounded-lg border-l-4 border-green-200'>
                 <h3 className='text-lg font-semibold mb-3 text-green-800'>
-                  ✅ Recommendation: Add Touch Feedback Animation
+                  ✅ My Proposed Solution
                 </h3>
                 <p className='mb-3 text-green-700'>
-                  Implement touch-friendly visual feedback, such as:
+                  So I researched best practices for mobile touch feedback and
+                  came up with several options:
                 </p>
                 <ul className='space-y-2 text-green-700 mb-4'>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                     <span>
-                      <strong>Background color change</strong> or highlight on
-                      tap
+                      <strong>Active state styling</strong> - immediate color
+                      change on tap
                     </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                     <span>
-                      <strong>Ripple effect</strong> or light shadow animation
+                      <strong>Subtle animations</strong> - ripple effects or
+                      gentle transitions
                     </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                     <span>
-                      <strong>Scale-in effect</strong> or subtle zoom on tap
+                      <strong>Micro-interactions</strong> - slight scale or
+                      shadow changes
                     </span>
                   </li>
                 </ul>
@@ -124,22 +135,26 @@ export default function Navbar() {
 
               <section className='bg-blue-50 p-4 rounded-lg border-l-4 border-blue-200'>
                 <h3 className='text-lg font-semibold mb-3 text-blue-800'>
-                  🎯 Goal
+                  🎯 My Goal With This Analysis
                 </h3>
                 <p className='text-blue-700'>
-                  Provide a <strong>consistent interactive experience</strong>{' '}
-                  across devices. Ensure users receive immediate visual
-                  feedback—whether by mouse hover on desktop or touch tap on
-                  mobile—making navigation more responsive and engaging.
+                  I wanted to create a{' '}
+                  <strong>consistent, responsive experience</strong> across all
+                  devices. Users should get immediate visual confirmation when
+                  they interact with any element, whether they're hovering with
+                  a mouse or tapping with their finger. It's about building
+                  trust and confidence in the interface.
                 </p>
               </section>
+
               {/* Original Mobile Menu Image */}
               <section className='bg-blue-50 p-4 rounded-lg border-l-4 border-blue-200'>
                 <h3 className='text-lg font-semibold mb-3 text-blue-800'>
-                  📱 Original Mobile Menu
+                  📱 The Current Mobile Implementation
                 </h3>
                 <p className='text-blue-700 mb-4'>
-                  Current mobile menu implementation:
+                  Here's what the current mobile menu looks like - you can see
+                  it's functional but lacks that tactile feedback:
                 </p>
 
                 <div className='flex justify-center mb-4'>
@@ -159,11 +174,13 @@ export default function Navbar() {
               {/* Mobile Menu Demo Section */}
               <section className='bg-purple-50 p-4 rounded-lg border-l-4 border-purple-200'>
                 <h3 className='text-lg font-semibold mb-3 text-purple-800'>
-                  📱 Mobile Menu Demo
+                  📱 My Prototype Solution
                 </h3>
                 <p className='text-purple-700 mb-4'>
-                  Here's a working demonstration of the mobile clothing menu
-                  with improved touch feedback:
+                  I actually built a working prototype to demonstrate the
+                  improved touch feedback. This shows how I approach
+                  problem-solving - I don't just identify issues, I create
+                  tangible solutions:
                 </p>
 
                 <div className='flex justify-center mb-4'>
@@ -171,7 +188,7 @@ export default function Navbar() {
                     onClick={() => setIsMobileMenuOpen(true)}
                     className='bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-medium transition-colors shadow-md hover:shadow-lg'
                   >
-                    Open Mobile Menu Demo
+                    Try My Improved Mobile Menu
                   </button>
                 </div>
 
@@ -187,8 +204,7 @@ export default function Navbar() {
                         <div className='text-center'>
                           <div className='text-4xl mb-2'>📱</div>
                           <p className='text-gray-500'>
-                            Click "Open Mobile Menu Demo" to see the menu in
-                            action
+                            Click the button above to see my prototype in action
                           </p>
                         </div>
                       </div>

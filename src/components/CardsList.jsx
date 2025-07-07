@@ -286,11 +286,17 @@ const CardsList = () => {
                 Myer Style Design
               </h3>
               <ul className='text-sm text-gray-600 space-y-1'>
-                <li>• Brand name displayed above product title</li>
-                <li>• Clearance and discount badges in lower content area</li>
-                <li>• Badges stacked vertically below color swatches</li>
-                <li>• Clean, minimal layout with subtle shadows</li>
-                <li>• No overlay badges on product image</li>
+                <li>• Brand name sits right above the product title</li>
+                <li>
+                  • Sale and clearance tags are down in the main content area
+                </li>
+                <li>
+                  • All the badges stack up neatly under the color options
+                </li>
+                <li>• Nice clean look with just a touch of shadow for depth</li>
+                <li>
+                  • Product images stay clean - no badges covering them up
+                </li>
               </ul>
             </div>
             <div>
@@ -298,12 +304,19 @@ const CardsList = () => {
                 Top-Left Badge Design
               </h3>
               <ul className='text-sm text-gray-600 space-y-1'>
-                <li>• Yellow badge positioned outside the card body</li>
-                <li>• Badge contains "EXTRA 30% OFF" text with smaller font</li>
-                <li>• Badge floats above the card with shadow effect</li>
-                <li>• Color swatches positioned above product title</li>
-                <li>• Yellow accent color for sale price</li>
-                <li>• Blue underlined review links</li>
+                <li>
+                  • Bright yellow badge pops up outside the main card area
+                </li>
+                <li>• Shows "EXTRA 30% OFF" in smaller, easy-to-read text</li>
+                <li>
+                  • Badge hovers above everything else with a nice drop shadow
+                </li>
+                <li>• Color options sit right above the product name</li>
+                <li>• Sale prices get that eye-catching yellow highlight</li>
+                <li>
+                  • Review links are blue and underlined so you know they're
+                  clickable
+                </li>
               </ul>
             </div>
           </div>

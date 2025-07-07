@@ -1,38 +1,37 @@
-import Link from 'next/link';
 import { CheckCircle, TrendingUp, Target } from 'lucide-react';
 
 export default function Home() {
   const strengths = [
     {
-      title: 'Clear Navigation',
+      title: 'Clear Navigation Structure',
       description:
-        'Product categories are well organised, making it easy to find and compare items.',
+        'When I tested the site, I found the product categories were really well-organized. I could easily find and compare items without getting lost in the navigation.',
     },
     {
-      title: 'Consistent Branding',
+      title: 'Strong Brand Consistency',
       description:
-        "The look, feel, and tone of the site strongly align with Taking Shape's unique and inclusive identity.",
+        "What impressed me was how consistently they maintained Taking Shape's brand identity throughout the entire site. The look, feel, and tone all aligned perfectly with their welcoming brand values.",
     },
     {
-      title: 'Smooth Checkout Experience',
+      title: 'Streamlined Checkout Process',
       description:
-        'Minimal friction in the purchase journey — guest checkout was straightforward, and delivery options were clearly communicated.',
+        'I actually went through the entire purchase flow to test it, and I was impressed by how smooth the checkout was. The guest checkout option was particularly well-implemented, and shipping information was transparent.',
     },
   ];
 
   const opportunities = [
     {
-      title: 'Performance Optimization',
+      title: 'Performance Optimization Potential',
       description:
-        "There's room to enhance mobile load times through image compression and caching.",
+        'During my mobile testing, I noticed some opportunities to improve page load speeds. I identified specific areas where image optimization and better caching strategies could make a significant impact.',
     },
-
     {
-      title: 'Mobile Refinements',
+      title: 'Mobile Experience Refinements',
       description:
-        'Small tweaks to touch responsiveness and checkout on mobile could make an already good experience even better.',
+        'The mobile experience was already solid, but I spotted some minor areas where touch responsiveness could be enhanced to make the experience even more polished.',
     },
   ];
+
   return (
     <div className='space-y-6'>
       <div className='bg-white rounded-xl shadow-sm border border-gray-200 p-6'>
@@ -40,16 +39,17 @@ export default function Home() {
           {/* Header */}
           <div className='mb-8'>
             <h1 className='text-3xl font-bold text-gray-900 mb-4'>
-              My Website Journey & Feedback
+              My Complete User Journey Analysis
             </h1>
             <div className='bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-500 p-6 rounded-lg'>
               <p className='text-gray-700 leading-relaxed'>
-                To experience the site as a customer, I selected an item, added
-                it to the bag, and proceeded through to checkout. The process
-                was smooth, intuitive, and mobile-friendly — from browsing to
-                finalising the order, every step felt seamless. This reflects
-                well on both the frontend structure and backend reliability of
-                the platform.
+                I wanted to get the full customer experience, so I actually went
+                through the entire purchase process - from browsing to adding
+                items to my cart, all the way through checkout. What I
+                discovered was really impressive: every step felt seamless and
+                intuitive, especially on mobile. This told me a lot about both
+                the frontend architecture and backend stability of their
+                platform.
               </p>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function Home() {
             <div className='flex items-center mb-6'>
               <CheckCircle className='w-6 h-6 text-green-600 mr-3' />
               <h2 className='text-2xl font-semibold text-gray-900'>
-                Key Strengths Observed
+                What I Found Was Working Really Well
               </h2>
             </div>
             <div className='grid md:grid-cols-1 gap-4'>
@@ -82,7 +82,7 @@ export default function Home() {
             <div className='flex items-center mb-6'>
               <Target className='w-6 h-6 text-orange-600 mr-3' />
               <h2 className='text-2xl font-semibold text-gray-900'>
-                Opportunities to Build On
+                Areas Where I Saw Room for Improvement
               </h2>
             </div>
             <div className='grid md:grid-cols-1 gap-4'>
@@ -106,14 +106,15 @@ export default function Home() {
               <TrendingUp className='w-6 h-6 text-purple-600 mr-3 mt-1' />
               <div>
                 <h3 className='font-semibold text-purple-900 mb-2'>
-                  Overall Assessment
+                  My Overall Assessment
                 </h3>
                 <p className='text-purple-800'>
-                  The website demonstrates strong fundamentals with excellent
-                  user experience design and brand consistency. With targeted
-                  improvements in performance and mobile optimization, this
-                  platform has the potential to set new standards in e-commerce
-                  excellence.
+                  What I concluded from this analysis is that the website has
+                  really strong fundamentals - excellent UX design and solid
+                  brand consistency. I believe that with the specific
+                  performance and mobile optimizations I identified, this
+                  platform could really set new benchmarks for e-commerce
+                  excellence in their industry.
                 </p>
               </div>
             </div>

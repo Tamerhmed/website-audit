@@ -1,87 +1,98 @@
 import Image from 'next/image';
 import tooltipImage from '../../public/img/improvments/tooltip-mobile-1.png';
 
-export default function TooltipMobile() {
+export default function TooltipMobileAnalysis() {
   return (
-    <div className='max-w-4xl mx-auto p-6 bg-white'>
-      <h1 className='text-3xl font-bold text-gray-900 mb-6'>
-        Mobile Tooltip Optimization
-      </h1>
+    <div className='max-w-5xl mx-auto p-8 bg-gray-50'>
+      <header className='mb-10'>
+        <h1 className='text-4xl font-bold text-gray-900 mb-3'>
+          Mobile Tooltip UX Analysis
+        </h1>
+        <p className='text-lg text-gray-600'>
+          A case study on improving mobile interface interactions
+        </p>
+      </header>
 
-      <div className='mb-8'>
+      <div className='w-full mb-8'>
         <Image
           src={tooltipImage}
-          alt='Mobile Tooltip Interface'
-          className='w-full h-auto rounded-lg shadow-lg'
+          alt='Mobile Tooltip Interface Analysis'
+          className='w-full h-auto max-h-96 object-contain rounded-lg shadow-lg'
           priority
         />
       </div>
 
-      <div className='space-y-8'>
-        {/* Problem Section */}
-        <section>
-          <h2 className='text-2xl font-semibold text-red-800 mb-4 border-b-2 border-red-500 pb-2'>
-            Problem
-          </h2>
-          <div className='bg-red-50 p-6 rounded-lg border-l-4 border-red-500'>
-            <p className='text-gray-700 leading-relaxed'>
-              Current tooltip implementation on mobile devices creates usability
-              issues. Tooltips appear in suboptimal positions, often extending
-              beyond screen boundaries, making them difficult to read and
-              interact with. The close functionality is not intuitive for touch
-              interfaces, and touch targets are inadequately sized for mobile
-              interaction patterns.
+      <div className='grid gap-8'>
+        {/* Problem Identification */}
+        <section className='bg-white p-8 rounded-xl shadow-sm'>
+          <div className='flex items-center mb-6'>
+            <h2 className='text-2xl font-bold text-red-700'>
+              Problem I Identified
+            </h2>
+          </div>
+          <div className='bg-red-50 p-6 rounded-lg border border-red-200'>
+            <p className='text-gray-800 text-lg leading-relaxed'>
+              "During my mobile usability audit, I discovered that tooltips were
+              creating significant friction. They'd appear in awkward positions,
+              often getting cut off at screen edges, and users couldn't easily
+              dismiss them. The touch targets were too small and the interaction
+              patterns weren't intuitive for mobile users."
             </p>
           </div>
         </section>
 
-        {/* Solution Section */}
-        <section>
-          <h2 className='text-2xl font-semibold text-blue-800 mb-4 border-b-2 border-blue-500 pb-2'>
-            Solution
-          </h2>
+        {/* Solution Strategy */}
+        <section className='bg-white p-8 rounded-xl shadow-sm'>
+          <div className='flex items-center mb-6'>
+            <h2 className='text-2xl font-bold text-blue-700'>
+              My Strategic Approach
+            </h2>
+          </div>
 
           <div className='space-y-6'>
-            <div className='mb-6'>
-              <h3 className='text-xl font-semibold text-blue-800 mb-4'>
-                Key Improvements
-              </h3>
+            <div className='grid md:grid-cols-2 gap-6'>
+              <div className='bg-blue-50 p-6 rounded-lg border border-blue-200'>
+                <h3 className='text-lg font-semibold text-blue-800 mb-4 flex items-center'>
+                  <span className='bg-blue-200 w-8 h-8 rounded-full flex items-center justify-center text-blue-800 text-sm font-bold mr-3'>
+                    1
+                  </span>
+                  Positioning Strategy
+                </h3>
+                <p className='text-gray-700'>
+                  "I recommended implementing dynamic positioning algorithms
+                  that calculate optimal tooltip placement based on viewport
+                  dimensions and available screen real estate."
+                </p>
+              </div>
 
-              <div className='space-y-4'>
-                <div className='bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500'>
-                  <h4 className='font-semibold text-blue-800 mb-3'>
-                    Positioning
-                  </h4>
-                  <div className='space-y-2 text-gray-700'>
-                    <p>• Position tooltips above trigger elements on mobile</p>
-
-                    <p>
-                      • Use adaptive positioning based on available screen space
-                    </p>
-                  </div>
-                </div>
-
-                <div className='bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500'>
-                  <h4 className='font-semibold text-blue-800 mb-3'>
-                    User Experience
-                  </h4>
-                  <div className='space-y-2 text-gray-700'>
-                    <p>• Make close (X) button more visible and tappable</p>
-                    <p>• Improve touch target sizes</p>
-                  </div>
-                </div>
+              <div className='bg-blue-50 p-6 rounded-lg border border-blue-200'>
+                <h3 className='text-lg font-semibold text-blue-800 mb-4 flex items-center'>
+                  <span className='bg-blue-200 w-8 h-8 rounded-full flex items-center justify-center text-blue-800 text-sm font-bold mr-3'>
+                    2
+                  </span>
+                  Interaction Design
+                </h3>
+                <p className='text-gray-700'>
+                  "I focused on making close buttons more visible and increasing
+                  touch target sizes to meet mobile accessibility standards -
+                  minimum 44px touch targets."
+                </p>
               </div>
             </div>
 
-            <div className='bg-green-50 p-6 rounded-lg border-l-4 border-green-500'>
-              <h3 className='text-xl font-semibold text-green-800 mb-3'>
-                Recommended Approach
+            <div className='bg-green-50 p-8 rounded-lg border border-green-200'>
+              <h3 className='text-xl font-semibold text-green-800 mb-4 flex items-center'>
+                <span className='text-green-600 mr-3'>✓</span>
+                Final Recommendation
               </h3>
-              <p className='text-gray-700 leading-relaxed'>
-                Keep current tooltip concept but implement mobile-specific
-                optimizations: reposition above triggers, reduce size, condense
-                content, and enhance close button visibility for better mobile
-                usability.
+              <p className='text-gray-800 text-lg leading-relaxed'>
+                "Rather than completely redesigning the tooltip system, I
+                suggested optimizing the existing implementation: repositioning
+                tooltips above interactive elements to prevent screen edge
+                clipping, condensing content for mobile consumption, and
+                enhancing the dismissal mechanism. This approach maintains
+                consistency while significantly improving the mobile user
+                experience."
               </p>
             </div>
           </div>

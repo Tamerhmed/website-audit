@@ -23,60 +23,44 @@ export default function MobileDiscountBanner() {
           <div className='bg-white rounded-lg p-6 shadow-sm'>
             <h3 className='text-2xl font-semibold mb-4 text-gray-800 flex items-center'>
               <span className='mr-2'>📋</span>
-              Problem Overview
+              The Problem I Noticed
             </h3>
             <p className='text-gray-700 leading-relaxed'>
-              The promotional banner displaying "EXTRA 30% OFF CLEARANCE
-              DRESSES, PANTS, JEANS & LEGGINGS*" on the Plus Size Dresses
-              Clearance Outlet page has a text alignment issue affecting its
-              visual presentation and professional appearance.
+              I was reviewing the Plus Size Dresses Clearance Outlet page and
+              noticed the promotional banner had a visual alignment issue. The
+              text "EXTRA 30% OFF CLEARANCE DRESSES, PANTS, JEANS & LEGGINGS*"
+              was left-aligned within the banner container, which made it look
+              unprofessional and reduced its effectiveness as a promotional
+              tool.
             </p>
-          </div>
-
-          {/* Priority Level */}
-          <div className='bg-white rounded-lg p-6 shadow-sm'>
-            <h3 className='text-2xl font-semibold mb-4 text-orange-600 flex items-center'>
-              <span className='mr-2'>⚡</span>
-              Priority Level
-            </h3>
-            <div className='bg-orange-50 p-4 rounded-lg border-l-4 border-orange-200'>
-              <p className='text-orange-700 leading-relaxed'>
-                <strong>Medium-High</strong> - While not functionally breaking,
-                this visual issue affects a key promotional element and should
-                be addressed in the next styling update cycle.
-              </p>
-            </div>
           </div>
 
           {/* Current Issues */}
           <div className='bg-white rounded-lg p-6 shadow-sm'>
             <h3 className='text-2xl font-semibold mb-6 text-red-600 flex items-center'>
               <span className='mr-2'>⚠️</span>
-              Current Issues
+              What I Found Wrong
             </h3>
 
             <div className='space-y-6'>
               {/* Alignment Problem */}
               <div className='bg-red-50 p-4 rounded-lg border-l-4 border-red-200'>
                 <h4 className='text-lg font-semibold mb-3 text-red-800'>
-                  Alignment Problem
+                  The Technical Issue
                 </h4>
                 <ul className='space-y-2 text-red-700'>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                     <span>
-                      Banner text is left-aligned within the yellow promotional
-                      banner container
+                      The banner text was inheriting left-alignment from its
+                      parent container
                     </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
-                    <span>Creates unbalanced, unprofessional appearance</span>
-                  </li>
-                  <li className='flex items-start'>
-                    <span className='w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                     <span>
-                      Text appears flush to the left side rather than centered
+                      Nobody had set a specific text-align property for the
+                      promotional element
                     </span>
                   </li>
                 </ul>
@@ -85,27 +69,28 @@ export default function MobileDiscountBanner() {
               {/* Impact on User Experience */}
               <div className='bg-red-50 p-4 rounded-lg border-l-4 border-red-200'>
                 <h4 className='text-lg font-semibold mb-3 text-red-800'>
-                  Impact on User Experience
+                  Why It Mattered
                 </h4>
                 <ul className='space-y-2 text-red-700'>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                     <span>
-                      Reduces banner effectiveness in drawing attention to sale
-                      offers
+                      The promotional offer wasn't drawing enough attention
+                      because it looked off
                     </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                     <span>
-                      Creates asymmetrical appearance with uneven spacing
+                      It created visual inconsistency that made our brand look
+                      less professional
                     </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='w-2 h-2 bg-red-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                     <span>
-                      Inconsistent with typical promotional banner styling
-                      standards
+                      Most promotional banners are centered, so this looked
+                      wrong to users
                     </span>
                   </li>
                 </ul>
@@ -117,33 +102,37 @@ export default function MobileDiscountBanner() {
           <div className='bg-white rounded-lg p-6 shadow-sm'>
             <h3 className='text-2xl font-semibold mb-6 text-green-600 flex items-center'>
               <span className='mr-2'>✅</span>
-              Recommended Solution
+              My Recommendation
             </h3>
 
             <div className='bg-green-50 p-4 rounded-lg border-l-4 border-green-200'>
               <h4 className='text-lg font-semibold mb-3 text-green-800'>
-                Center-Align Implementation
+                What I Suggested
               </h4>
               <p className='text-green-700 leading-relaxed mb-4'>
-                Implement proper text centering for the promotional banner to
-                achieve:
+                I recommended adding center text alignment to the promotional
+                banner element. It would be a simple fix but would make a big
+                difference:
               </p>
               <ul className='space-y-2 text-green-700'>
                 <li className='flex items-start'>
                   <span className='w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
-                  <span>Improved visual balance and symmetry</span>
+                  <span>
+                    The banner would look properly balanced and professional
+                  </span>
                 </li>
                 <li className='flex items-start'>
                   <span className='w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
-                  <span>Enhanced professional appearance</span>
+                  <span>
+                    The promotional offer would become more prominent and
+                    eye-catching
+                  </span>
                 </li>
                 <li className='flex items-start'>
                   <span className='w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
-                  <span>Better attention-drawing capabilities</span>
-                </li>
-                <li className='flex items-start'>
-                  <span className='w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
-                  <span>Consistency with promotional banner standards</span>
+                  <span>
+                    It would match what users expect from promotional banners
+                  </span>
                 </li>
               </ul>
             </div>
@@ -153,12 +142,15 @@ export default function MobileDiscountBanner() {
           <div className='bg-white rounded-lg p-6 shadow-sm'>
             <h3 className='text-2xl font-semibold mb-4 text-blue-600 flex items-center'>
               <span className='mr-2'>🎯</span>
-              Expected Outcome
+              Expected Impact
             </h3>
             <div className='bg-blue-50 p-4 rounded-lg border-l-4 border-blue-200'>
               <p className='text-blue-700 leading-relaxed'>
-                This styling fix will restore the banner's visual impact and
-                maintain brand consistency across promotional elements.
+                This recommendation would restore the banner's visual impact and
+                keep our promotional elements consistent. It's a good example of
+                how small styling changes can really improve user experience and
+                brand perception. The solution would be low-risk but have a high
+                impact on how professional our site looks.
               </p>
             </div>
           </div>

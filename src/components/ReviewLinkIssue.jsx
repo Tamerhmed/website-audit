@@ -6,7 +6,7 @@ export default function ReviewLinkIssue() {
     <div className='min-h-screen bg-gray-50'>
       <div className='container mx-auto px-4 py-8 max-w-4xl'>
         <h1 className='text-3xl font-bold text-center mb-8 text-gray-900'>
-          Review Link Navigation Issue
+          Review Link Navigation Analysis
         </h1>
 
         {/* Visual Illustration */}
@@ -21,8 +21,8 @@ export default function ReviewLinkIssue() {
             </div>
           </div>
           <p className='text-center text-gray-600 mt-4 text-sm'>
-            Current Issue: Review links not navigating to review section when
-            clicked
+            Issue I Identified: Review links not navigating to review section
+            when clicked
           </p>
         </div>
 
@@ -31,28 +31,31 @@ export default function ReviewLinkIssue() {
           <div className='bg-white rounded-lg p-6 shadow-sm'>
             <h2 className='text-2xl font-semibold mb-4 text-red-600 flex items-center'>
               <span className='mr-2'>⚠️</span>
-              Problem Description
+              Problem I Discovered
             </h2>
             <div className='space-y-4 text-gray-700'>
               <div>
-                <span className='font-semibold text-red-600'>Issue:</span>{' '}
-                Review link click functionality not working properly
+                <span className='font-semibold text-red-600'>
+                  What I Found:
+                </span>{' '}
+                "During my usability audit, I discovered that the review link
+                functionality was completely broken."
               </div>
               <div>
                 <span className='font-semibold text-red-600'>
                   Current Behavior:
                 </span>{' '}
-                When users click on the review link (showing "4 Reviews" with
-                star ratings), the page does not navigate to the review section
-                as expected.
+                "When users click on review links - the '4 Reviews' text with
+                star ratings - nothing happens. No navigation, no scrolling, no
+                response whatsoever."
               </div>
               <div>
                 <span className='font-semibold text-green-600'>
                   Expected Behavior:
                 </span>{' '}
-                Clicking the review link should automatically scroll the user to
-                the review section of the product page or navigate to a
-                dedicated reviews section.
+                "Users expect clicking that link to take them straight to the
+                review section. It's basic navigation functionality that should
+                work seamlessly."
               </div>
             </div>
           </div>
@@ -61,26 +64,29 @@ export default function ReviewLinkIssue() {
           <div className='bg-white rounded-lg p-6 shadow-sm'>
             <h2 className='text-2xl font-semibold mb-4 text-orange-600 flex items-center'>
               <span className='mr-2'>📊</span>
-              Impact
+              Why This Matters
             </h2>
             <ul className='space-y-3 text-gray-700'>
               <li className='flex items-start'>
                 <span className='w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
-                <span>Users cannot easily access product reviews</span>
-              </li>
-              <li className='flex items-start'>
-                <span className='w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                 <span>
-                  Poor user experience when trying to read customer feedback
+                  "Users can't access the social proof they need to make
+                  purchase decisions"
                 </span>
               </li>
               <li className='flex items-start'>
                 <span className='w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
-                <span>Reduced engagement with review content</span>
+                <span>
+                  "It creates immediate frustration - broken links damage user
+                  trust"
+                </span>
               </li>
               <li className='flex items-start'>
                 <span className='w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
-                <span>Potential loss of trust due to broken functionality</span>
+                <span>
+                  "Review engagement drops significantly when access is this
+                  difficult"
+                </span>
               </li>
             </ul>
           </div>

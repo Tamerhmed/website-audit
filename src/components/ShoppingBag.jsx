@@ -19,49 +19,53 @@ export default function ShoppingBag() {
 
       <div className='space-y-8'>
         <section>
-          <h2 className='text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-green-500 pb-2'>
-            Key Strengths
+          <h2 className='text-xl font-bold text-gray-900 mb-6 flex items-center'>
+            Key Strengths I Identified
           </h2>
-          <div className='grid gap-4'>
-            <div className='bg-green-50 p-4 rounded-lg border-l-4 border-green-500'>
-              <h3 className='font-semibold text-green-800 mb-2'>
-                Excellent Cross-Selling
-              </h3>
-              <p className='text-gray-700'>
-                "Complete the Look" section effectively drives higher order
-                values
+          <div className='space-y-4'>
+            <div className='bg-white p-5 rounded-lg shadow-sm border border-green-200'>
+              <p className='text-gray-800 font-medium'>
+                "When I analyzed the cross-selling strategy, I found that
+                'Complete the Look' section is incredibly effective at driving
+                higher order values."
               </p>
             </div>
-            <div className='bg-green-50 p-4 rounded-lg border-l-4 border-green-500'>
-              <h3 className='font-semibold text-green-800 mb-2'>
-                Comprehensive Product Info
+            <div className='bg-white p-5 rounded-lg shadow-sm border border-green-200'>
+              <h3 className='font-semibold text-green-700 mb-3'>
+                Comprehensive Product Information
               </h3>
               <p className='text-gray-700'>
-                Clear display of fit, color, size, price, and quantity details
+                "I was impressed by how all the essential details - fit, colors,
+                sizes, pricing, and quantity selection - are clearly presented
+                in one place."
               </p>
             </div>
-            <div className='bg-green-50 p-4 rounded-lg border-l-4 border-green-500'>
-              <h3 className='font-semibold text-green-800 mb-2'>
-                Smart Delivery Options
+            <div className='bg-white p-5 rounded-lg shadow-sm border border-green-200'>
+              <h3 className='font-semibold text-green-700 mb-3'>
+                Strategic Delivery Incentives
               </h3>
               <p className='text-gray-700'>
-                Click & Collect with FREE delivery plus $10 voucher bonus
+                "The Click & Collect option with free delivery plus a $10
+                voucher creates a compelling value proposition that reduces cart
+                abandonment."
               </p>
             </div>
-            <div className='bg-green-50 p-4 rounded-lg border-l-4 border-green-500'>
-              <h3 className='font-semibold text-green-800 mb-2'>
-                Clean Design
+            <div className='bg-white p-5 rounded-lg shadow-sm border border-green-200'>
+              <h3 className='font-semibold text-green-700 mb-3'>
+                Strong Visual Design
               </h3>
               <p className='text-gray-700'>
-                Professional, uncluttered layout with strong brand consistency
+                "The interface maintains excellent brand consistency with a
+                clean, professional layout that doesn't overwhelm users."
               </p>
             </div>
-            <div className='bg-green-50 p-4 rounded-lg border-l-4 border-green-500'>
-              <h3 className='font-semibold text-green-800 mb-2'>
-                Transparent Pricing
+            <div className='bg-white p-5 rounded-lg shadow-sm border border-green-200'>
+              <h3 className='font-semibold text-green-700 mb-3'>
+                Transparent Pricing Model
               </h3>
               <p className='text-gray-700'>
-                Clear breakdown of costs and prominent promo code field
+                "What I really appreciated was the clear cost breakdown and
+                prominent promo code placement - no hidden fees or confusion."
               </p>
             </div>
           </div>
@@ -81,8 +85,16 @@ export default function ShoppingBag() {
                 Quantity Control
               </h4>
               <p className='text-gray-700'>
-                Replace "UPDATE" button with intuitive +/- icons for easier
-                quantity changes
+                So when I was looking at the user experience, I noticed that
+                customers have to manually type in quantities and then click an
+                'UPDATE' button, which feels pretty clunky. I thought, why not
+                implement those intuitive plus and minus buttons instead? Users
+                can just tap to increase or decrease quantities - it's much more
+                seamless. What's interesting is that this functionality already
+                exists on the product pages, so from a UX consistency
+                standpoint, it makes perfect sense to roll it out across the
+                entire site. It would definitely streamline the shopping
+                experience and reduce friction for customers.
               </p>
             </div>
           </div>
