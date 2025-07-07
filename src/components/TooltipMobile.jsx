@@ -32,11 +32,11 @@ export default function TooltipMobileAnalysis() {
           </div>
           <div className='bg-red-50 p-6 rounded-lg border border-red-200'>
             <p className='text-gray-800 text-lg leading-relaxed'>
-              "During my mobile usability audit, I discovered that tooltips were
+              During my mobile usability audit, I discovered that tooltips were
               creating significant friction. They'd appear in awkward positions,
               often getting cut off at screen edges, and users couldn't easily
               dismiss them. The touch targets were too small and the interaction
-              patterns weren't intuitive for mobile users."
+              patterns weren't intuitive for mobile users.
             </p>
           </div>
         </section>
@@ -59,9 +59,9 @@ export default function TooltipMobileAnalysis() {
                   Positioning Strategy
                 </h3>
                 <p className='text-gray-700'>
-                  "I recommended implementing dynamic positioning algorithms
-                  that calculate optimal tooltip placement based on viewport
-                  dimensions and available screen real estate."
+                  I recommend implementing dynamic positioning algorithms that
+                  calculate optimal tooltip placement based on viewport
+                  dimensions and available screen real estate.
                 </p>
               </div>
 
@@ -73,9 +73,9 @@ export default function TooltipMobileAnalysis() {
                   Interaction Design
                 </h3>
                 <p className='text-gray-700'>
-                  "I focused on making close buttons more visible and increasing
-                  touch target sizes to meet mobile accessibility standards -
-                  minimum 44px touch targets."
+                  I would focus on making close buttons more visible and
+                  increasing touch target sizes to meet mobile accessibility
+                  standards - minimum 44px touch targets.
                 </p>
               </div>
             </div>
@@ -86,13 +86,12 @@ export default function TooltipMobileAnalysis() {
                 Final Recommendation
               </h3>
               <p className='text-gray-800 text-lg leading-relaxed'>
-                "Rather than completely redesigning the tooltip system, I
-                suggested optimizing the existing implementation: repositioning
-                tooltips above interactive elements to prevent screen edge
-                clipping, condensing content for mobile consumption, and
-                enhancing the dismissal mechanism. This approach maintains
-                consistency while significantly improving the mobile user
-                experience."
+                Rather than completely redesigning the tooltip system, I suggest
+                optimising the existing implementation: repositioning tooltips
+                above interactive elements to prevent screen edge clipping,
+                condensing content for mobile consumption, and enhancing the
+                dismissal mechanism. This approach maintains consistency while
+                significantly improving the mobile user experience.
               </p>
             </div>
           </div>

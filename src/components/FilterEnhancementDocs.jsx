@@ -390,11 +390,10 @@ export default function FilterEnhancementDocs() {
               Lack of Visual Feedback
             </h4>
             <p className='text-red-700'>
-              The biggest issue I observed was that users couldn't tell which
-              filters were active. During testing, I watched people click the
-              same filter multiple times because there was no clear visual
-              indication of the selection state. This created a lot of confusion
-              and frustration.
+              The biggest issue is that I couldn't tell which filters were
+              active. During testing, I clicked the same filter multiple times
+              because there was no clear visual indication of the selection
+              state. This created a lot of confusion and frustration.
             </p>
           </div>
 
@@ -403,7 +402,7 @@ export default function FilterEnhancementDocs() {
               Poor Interactive Feedback
             </h4>
             <p className='text-red-700'>
-              The interface felt completely static. When users hovered over
+              The interface felt completely static. When I hovered over
               interactive elements, nothing happened - no visual cues to
               indicate these were clickable elements. This made the entire
               interface feel unresponsive and dated.
@@ -412,10 +411,10 @@ export default function FilterEnhancementDocs() {
 
           <div className='bg-red-50 border-l-4 border-red-400 p-4'>
             <p className='text-red-700'>
-              The dropdown menu were very basic - they opened and closed without
-              any visual transitions or feedback. Users had trouble
-              understanding the interaction states and couldn't easily tell when
-              a dropdown was active or inactive.
+              The dropdown menu was very basic, it opened and closed without any
+              visual transitions or feedback. I had trouble understanding the
+              interaction states and couldn't easily tell when a dropdown was
+              active or inactive.
             </p>
           </div>
 
@@ -425,8 +424,8 @@ export default function FilterEnhancementDocs() {
             </h4>
             <p className='text-red-700'>
               The brand filter buttons looked outdated and provided no
-              interactive feedback. They didn't align with modern UI standards
-              and offered no visual incentive for users to engage with them.
+              interactive feedback. It didn't align with modern UI standards and
+              offered no visual incentive for users to engage with them.
             </p>
           </div>
         </div>
@@ -446,10 +445,8 @@ export default function FilterEnhancementDocs() {
         </div>
 
         <p className='text-gray-700 mb-6'>
-          After identifying these pain points, I developed a comprehensive
-          enhancement strategy. My goal was to maintain the existing
-          functionality while significantly improving the user experience
-          through better visual feedback and modern interactions. Here's how I
+          I've been thinking about user experience improvements, and I recently
+          noticed something interesting on the Myer website. Here's how I
           approached each problem:
         </p>
 
@@ -459,16 +456,13 @@ export default function FilterEnhancementDocs() {
               1. Custom Checkbox Implementation
             </h3>
             <p className='text-green-700 mb-3'>
-              I've been thinking about user experience improvements, and I
-              recently noticed something interesting on the Myer website. Their
-              filter checkboxes have really effective visual feedback - you can
-              instantly tell what's selected and what isn't. I think we could
-              implement something similar here. The idea would be to create
-              custom checkboxes with clear visual states - using distinct color
-              changes, prominent checkmarks, and styling that creates a strong
-              contrast between selected and unselected items. This would
-              eliminate any user confusion about which filters are active and
-              improve the overall filtering experience.
+              I benchmarked against other retail sites and noticed that Myer's
+              filter checkboxes have excellent visual feedback, you can
+              instantly distinguish between selected and unselected states.
+              Based on this research, I recommended implementing custom
+              checkboxes with clear visual hierarchy. My proposal included
+              distinct color changes, prominent checkmarks, and high contrast
+              styling to eliminate any ambiguity about which filters are active.
             </p>
             <div className='text-green-700'>
               <strong>Impact:</strong>
@@ -490,10 +484,11 @@ export default function FilterEnhancementDocs() {
               2. Interactive Hover States
             </h3>
             <p className='text-green-700 mb-3'>
-              I'd also add interactive hover states with smooth transitions -
-              subtle scaling, color changes, and shadow effects. Keep them
-              professional but noticeable enough to show the elements are
-              interactive and give users that responsive feel they expect
+              I think interactive hover states would significantly improve the
+              user experience. I'd suggest implementing smooth transitions with
+              subtle scaling, color changes, and shadow effects. The challenge
+              would be balancing professional aesthetics with clear interactive
+              feedback that meets user expectations.
             </p>
           </div>
 
@@ -501,7 +496,7 @@ export default function FilterEnhancementDocs() {
             <div className='text-green-700'>
               <strong>Results:</strong>
               <ul className='list-disc list-inside mt-2 space-y-1'>
-                <li>Clearer visual hierarchy and interaction affordances</li>
+                <li>Clearer visual hierarchy</li>
                 <li>Better user understanding of interactive elements</li>
                 <li>More modern, professional appearance</li>
               </ul>

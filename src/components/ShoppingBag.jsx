@@ -25,9 +25,9 @@ export default function ShoppingBag() {
           <div className='space-y-4'>
             <div className='bg-white p-5 rounded-lg shadow-sm border border-green-200'>
               <p className='text-gray-800 font-medium'>
-                "When I analyzed the cross-selling strategy, I found that
+                When I analysed the cross-selling strategy, I found that
                 'Complete the Look' section is incredibly effective at driving
-                higher order values."
+                higher order values.
               </p>
             </div>
             <div className='bg-white p-5 rounded-lg shadow-sm border border-green-200'>
@@ -35,9 +35,9 @@ export default function ShoppingBag() {
                 Comprehensive Product Information
               </h3>
               <p className='text-gray-700'>
-                "I was impressed by how all the essential details - fit, colors,
-                sizes, pricing, and quantity selection - are clearly presented
-                in one place."
+                I was impressed by how all the essential details, fit, colors,
+                sizes, pricing, and quantity selection, are clearly presented in
+                one place.
               </p>
             </div>
             <div className='bg-white p-5 rounded-lg shadow-sm border border-green-200'>
@@ -45,9 +45,9 @@ export default function ShoppingBag() {
                 Strategic Delivery Incentives
               </h3>
               <p className='text-gray-700'>
-                "The Click & Collect option with free delivery plus a $10
-                voucher creates a compelling value proposition that reduces cart
-                abandonment."
+                The Click & Collect option with free delivery plus a $10 voucher
+                creates a compelling value proposition that reduces cart
+                abandonment.
               </p>
             </div>
             <div className='bg-white p-5 rounded-lg shadow-sm border border-green-200'>
@@ -55,8 +55,8 @@ export default function ShoppingBag() {
                 Strong Visual Design
               </h3>
               <p className='text-gray-700'>
-                "The interface maintains excellent brand consistency with a
-                clean, professional layout that doesn't overwhelm users."
+                The interface maintains excellent brand consistency with a
+                clean, professional layout that doesn't overwhelm users.
               </p>
             </div>
             <div className='bg-white p-5 rounded-lg shadow-sm border border-green-200'>
@@ -64,8 +64,8 @@ export default function ShoppingBag() {
                 Transparent Pricing Model
               </h3>
               <p className='text-gray-700'>
-                "What I really appreciated was the clear cost breakdown and
-                prominent promo code placement - no hidden fees or confusion."
+                What I really appreciated was the clear cost breakdown and
+                prominent promo code placement - no hidden fees or confusion.
               </p>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function ShoppingBag() {
                 customers have to manually type in quantities and then click an
                 'UPDATE' button, which feels pretty clunky. I thought, why not
                 implement those intuitive plus and minus buttons instead? Users
-                can just tap to increase or decrease quantities - it's much more
+                can just tap to increase or decrease quantities, it's much more
                 seamless. What's interesting is that this functionality already
                 exists on the product pages, so from a UX consistency
                 standpoint, it makes perfect sense to roll it out across the

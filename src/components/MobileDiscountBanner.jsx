@@ -107,7 +107,7 @@ export default function MobileDiscountBanner() {
 
             <div className='bg-green-50 p-4 rounded-lg border-l-4 border-green-200'>
               <h4 className='text-lg font-semibold mb-3 text-green-800'>
-                What I Suggested
+                What I Suggest
               </h4>
               <p className='text-green-700 leading-relaxed mb-4'>
                 I recommended adding center text alignment to the promotional
@@ -147,10 +147,10 @@ export default function MobileDiscountBanner() {
             <div className='bg-blue-50 p-4 rounded-lg border-l-4 border-blue-200'>
               <p className='text-blue-700 leading-relaxed'>
                 This recommendation would restore the banner's visual impact and
-                keep our promotional elements consistent. It's a good example of
+                keep the promotional elements consistent. It's a good example of
                 how small styling changes can really improve user experience and
                 brand perception. The solution would be low-risk but have a high
-                impact on how professional our site looks.
+                impact on how professional the site looks.
               </p>
             </div>
           </div>

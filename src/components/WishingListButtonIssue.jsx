@@ -38,10 +38,10 @@ export default function WishlistButtonIssue() {
               icon on product cards, they were being redirected to the product
               page instead of adding the item to their wishlist. This was
               happening because the heart button was nested inside a clickable
-              product card container, causing event bubbling. Users were
-              frustrated because they couldn't quickly add multiple items to
-              their wishlist without constantly navigating back and forth
-              between pages.
+              product card container, causing event bubbling. Users can get
+              frustrated because they can't quickly add multiple items to their
+              wishlist without constantly navigating back and forth between
+              pages.
             </p>
           </div>
 
@@ -55,15 +55,15 @@ export default function WishlistButtonIssue() {
               <li className='flex items-start'>
                 <span className='w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                 <span>
-                  Users could now quickly add multiple items to wishlist without
-                  page navigation
+                  Users can quickly add multiple items to wishlist without page
+                  navigation
                 </span>
               </li>
 
               <li className='flex items-start'>
                 <span className='w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                 <span>
-                  Heart icon now properly toggles wishlist status as expected
+                  Heart icon properly toggles wishlist status as expected
                 </span>
               </li>
               <li className='flex items-start'>

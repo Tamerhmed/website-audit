@@ -300,10 +300,10 @@ export default function AboutItemEnhancementDocs() {
                 content room to breathe and make it less overwhelming.
               </p>
               <p>
-                For critical details like style numbers and fabric info, use
+                For critical details like style numbers and fabric info, use{' '}
                 <strong>
                   bolder typography or subtle background highlights
-                </strong>
+                </strong>{' '}
                 to make them stand out.
               </p>
             </div>
@@ -315,9 +315,9 @@ export default function AboutItemEnhancementDocs() {
             </h3>
             <div className='text-green-700 space-y-2'>
               <p>
-                Implement a <strong>two-column grid layout</strong>
-                or tabbed interface for "Features" and "Care Instructions" to
-                make better use of space.
+                Implement a <strong>two-column grid layout</strong> or tabbed
+                interface for "Features" and "Care Instructions" to make better
+                use of space.
               </p>
               <p>
                 Move the model information into its own clearly defined section
@@ -345,7 +345,7 @@ export default function AboutItemEnhancementDocs() {
             </h3>
             <div className='text-green-700 space-y-2'>
               <p>
-                Ensure proper <strong>margin and padding adjustments</strong>
+                Ensure proper <strong>margin and padding adjustments</strong>{' '}
                 for smaller screens so the content remains readable.
               </p>
               <p>
@@ -363,7 +363,7 @@ export default function AboutItemEnhancementDocs() {
             <div className='text-green-700 space-y-2'>
               <p>
                 Ensure all bullet points and body copy follow consistent
-                <strong>font sizing and styling</strong> for a more polished
+                <strong> font sizing and styling</strong> for a more polished
                 look.
               </p>
             </div>

@@ -10,7 +10,7 @@ export default function Home() {
     {
       title: 'Strong Brand Consistency',
       description:
-        "What impressed me was how consistently they maintained Taking Shape's brand identity throughout the entire site. The look, feel, and tone all aligned perfectly with their welcoming brand values.",
+        "What impressed me was how consistently they maintained Taking Shape's brand identity throughout the entire site.",
     },
     {
       title: 'Streamlined Checkout Process',
@@ -44,7 +44,7 @@ export default function Home() {
             <div className='bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-500 p-6 rounded-lg'>
               <p className='text-gray-700 leading-relaxed'>
                 I wanted to get the full customer experience, so I actually went
-                through the entire purchase process - from browsing to adding
+                through the entire purchase process, from browsing to adding
                 items to my cart, all the way through checkout. What I
                 discovered was really impressive: every step felt seamless and
                 intuitive, especially on mobile. This told me a lot about both
@@ -112,7 +112,7 @@ export default function Home() {
                   What I concluded from this analysis is that the website has
                   really strong fundamentals - excellent UX design and solid
                   brand consistency. I believe that with the specific
-                  performance and mobile optimizations I identified, this
+                  performance and mobile optimisations I identified, this
                   platform could really set new benchmarks for e-commerce
                   excellence in their industry.
                 </p>

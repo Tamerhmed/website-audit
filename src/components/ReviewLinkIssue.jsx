@@ -38,24 +38,26 @@ export default function ReviewLinkIssue() {
                 <span className='font-semibold text-red-600'>
                   What I Found:
                 </span>{' '}
-                "During my usability audit, I discovered that the review link
-                functionality was completely broken."
+                I discovered that the review link functionality was completely
+                broken.
               </div>
               <div>
                 <span className='font-semibold text-red-600'>
                   Current Behavior:
                 </span>{' '}
-                "When users click on review links - the '4 Reviews' text with
-                star ratings - nothing happens. No navigation, no scrolling, no
-                response whatsoever."
+                I tried clicking on the review links, specifically the '4
+                Reviews' text with star ratings and discovered they weren't
+                functional. Users would expect this to either scroll to reviews
+                or navigate to a dedicated reviews page, but there was zero
+                response, which creates a frustrating experience.
               </div>
               <div>
                 <span className='font-semibold text-green-600'>
                   Expected Behavior:
                 </span>{' '}
-                "Users expect clicking that link to take them straight to the
+                users expect clicking that link to take them straight to the
                 review section. It's basic navigation functionality that should
-                work seamlessly."
+                work seamlessly.
               </div>
             </div>
           </div>
@@ -70,22 +72,22 @@ export default function ReviewLinkIssue() {
               <li className='flex items-start'>
                 <span className='w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                 <span>
-                  "Users can't access the social proof they need to make
-                  purchase decisions"
+                  Users can't access the social proof they need to make purchase
+                  decisions
                 </span>
               </li>
               <li className='flex items-start'>
                 <span className='w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                 <span>
-                  "It creates immediate frustration - broken links damage user
-                  trust"
+                  It creates immediate frustration - broken links damage user
+                  trust
                 </span>
               </li>
               <li className='flex items-start'>
                 <span className='w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0'></span>
                 <span>
-                  "Review engagement drops significantly when access is this
-                  difficult"
+                  Review engagement drops significantly when access is this
+                  difficult
                 </span>
               </li>
             </ul>

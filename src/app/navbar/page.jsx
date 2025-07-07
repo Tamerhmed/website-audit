@@ -179,7 +179,7 @@ export default function Navbar() {
                 <p className='text-purple-700 mb-4'>
                   I actually built a working prototype to demonstrate the
                   improved touch feedback. This shows how I approach
-                  problem-solving - I don't just identify issues, I create
+                  problem-solving, I don't just identify issues, I create
                   tangible solutions:
                 </p>
 

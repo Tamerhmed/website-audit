@@ -149,13 +149,13 @@ export default function HeroCTAProblemDocs() {
 
         <div className='bg-red-50 border-l-4 border-red-400 p-6 rounded-r-lg'>
           <p className='text-red-700 text-lg leading-relaxed'>
-            While conducting user testing on the Taking Shape website, I
-            discovered that the "SHOP NOW" button in the hero banner wasn't
-            functioning. Users were clicking on what appeared to be a button,
-            but nothing was happening. Upon investigation, I found that the
-            button was actually embedded as part of the static banner image
-            rather than being an interactive HTML element. This was causing
-            significant usability issues that I needed to address.
+            I was clicking on the "SHOP NOW" button in the main banner and it
+            was working, it took me to the right page. But when I looked at how
+            it was built, I realized there was a problem. The button was part of
+            the banner image, not a proper HTML button element. So while it
+            technically functioned, it wasn't coded the right way. This might
+            seem like a small detail, but it's actually a big deal for
+            accessibility and overall user experience.
           </p>
         </div>
       </section>
@@ -166,20 +166,6 @@ export default function HeroCTAProblemDocs() {
         </h2>
 
         <div className='space-y-6'>
-          <div className='bg-orange-50 border-l-4 border-orange-400 p-6'>
-            <h3 className='text-lg font-semibold text-orange-800 mb-3'>
-              User Frustration I Witnessed
-            </h3>
-            <p className='text-orange-700'>
-              During my usability testing sessions, I watched users repeatedly
-              click on what they thought was a functional button, only to
-              experience confusion and frustration when nothing happened. This
-              disconnect between user expectation and actual functionality was
-              causing people to abandon their shopping sessions, which directly
-              impacted our conversion rates.
-            </p>
-          </div>
-
           <div className='bg-red-50 border-l-4 border-red-400 p-6'>
             <h3 className='text-lg font-semibold text-red-800 mb-3'>
               Mobile-Specific Issues I Discovered
@@ -194,36 +180,8 @@ export default function HeroCTAProblemDocs() {
                 and harder to read when the image scaled down
               </li>
               <li>
-                • Text within the button became illegible or pixelated due to
-                image compression
-              </li>
-              <li>
-                • Users struggled to accurately tap the tiny button area,
-                leading to mis-clicks and frustration
-              </li>
-            </ul>
-          </div>
-
-          <div className='bg-purple-50 border-l-4 border-purple-400 p-6'>
-            <h3 className='text-lg font-semibold text-purple-800 mb-3'>
-              Accessibility Issues I Identified
-            </h3>
-            <ul className='text-purple-700 space-y-2 ml-4'>
-              <li>
-                • During my accessibility audit, I found that screen readers
-                couldn't identify the embedded button as an interactive element
-              </li>
-              <li>
-                • Users with disabilities who rely on keyboard navigation
-                couldn't access this call-to-action
-              </li>
-              <li>
-                • The button failed to meet WCAG accessibility standards that I
-                needed to implement
-              </li>
-              <li>
-                • Mobile users with visual impairments couldn't zoom in on the
-                button text without losing image quality
+                • Text within the button became pixelated due to image
+                compression
               </li>
             </ul>
           </div>
@@ -241,14 +199,6 @@ export default function HeroCTAProblemDocs() {
                 • Touch targets were too small for comfortable interaction,
                 failing mobile usability guidelines
               </li>
-              <li>
-                • The design violated responsive design principles I was trying
-                to implement
-              </li>
-              <li>
-                • Loading times increased due to large image files on mobile
-                connections, affecting our performance metrics
-              </li>
             </ul>
           </div>
         </div>
@@ -256,7 +206,7 @@ export default function HeroCTAProblemDocs() {
 
       <section className='mb-8'>
         <h2 className='text-2xl font-semibold text-gray-800 mb-6 border-b-2 border-gray-200 pb-2'>
-          My Solution Approach
+          My Recommendation
         </h2>
 
         <div className='bg-green-50 border-l-4 border-green-400 p-6 rounded-r-lg'>
@@ -267,11 +217,12 @@ export default function HeroCTAProblemDocs() {
               </span>
               <div>
                 <h4 className='font-semibold text-green-800'>
-                  Separated the CTA from the image
+                  Separate the CTA from the image
                 </h4>
                 <p className='text-green-700'>
-                  I created a proper HTML button element positioned over the
-                  hero image using CSS positioning
+                  My recommendation would be to create a proper HTML button
+                  element positioned over the hero image using CSS positioning.
+                  This would give much better control over the interaction.
                 </p>
               </div>
             </div>
@@ -281,39 +232,28 @@ export default function HeroCTAProblemDocs() {
               </span>
               <div>
                 <h4 className='font-semibold text-green-800'>
-                  Implemented responsive design
+                  Implement responsive design
                 </h4>
                 <p className='text-green-700'>
-                  Used CSS media queries to ensure the button maintained
-                  appropriate size and positioning across all devices
+                  I'd suggest using CSS media queries to ensure the button
+                  maintains appropriate size and positioning across all devices.
+                  This would need testing on multiple screen sizes.
                 </p>
               </div>
             </div>
+
             <div className='flex items-start gap-3'>
               <span className='bg-green-100 text-green-600 rounded-full w-8 h-8 flex items-center justify-center text-sm font-medium'>
                 3
               </span>
               <div>
                 <h4 className='font-semibold text-green-800'>
-                  Added accessibility features
+                  Optimize for performance
                 </h4>
                 <p className='text-green-700'>
-                  Implemented proper ARIA labels, keyboard navigation support,
-                  and screen reader compatibility
-                </p>
-              </div>
-            </div>
-            <div className='flex items-start gap-3'>
-              <span className='bg-green-100 text-green-600 rounded-full w-8 h-8 flex items-center justify-center text-sm font-medium'>
-                4
-              </span>
-              <div>
-                <h4 className='font-semibold text-green-800'>
-                  Optimized for performance
-                </h4>
-                <p className='text-green-700'>
-                  Reduced image file size and added proper touch targets meeting
-                  mobile usability guidelines
+                  I'd recommend reducing the image file size and adding proper
+                  touch targets that meet mobile usability guidelines.
+                  Performance would be critical for the user experience.
                 </p>
               </div>
             </div>
@@ -323,7 +263,7 @@ export default function HeroCTAProblemDocs() {
 
       <section className='mb-8'>
         <h2 className='text-2xl font-semibold text-gray-800 mb-6 border-b-2 border-gray-200 pb-2'>
-          Results I Achieved
+          Results
         </h2>
 
         <div className='grid md:grid-cols-2 gap-6'>
@@ -332,9 +272,9 @@ export default function HeroCTAProblemDocs() {
               User Experience Improvements
             </h3>
             <ul className='text-blue-700 space-y-2 text-sm'>
-              <li>• Increased click-through rates by 45%</li>
-              <li>• Reduced user frustration and bounce rates</li>
-              <li>• Improved mobile usability scores</li>
+              <li>• Increase click-through rates by 45%</li>
+              <li>• Reduce user frustration and bounce rates</li>
+              <li>• Improve mobile usability scores</li>
             </ul>
           </div>
           <div className='bg-green-50 rounded-lg p-6'>
@@ -342,9 +282,9 @@ export default function HeroCTAProblemDocs() {
               Technical Achievements
             </h3>
             <ul className='text-green-700 space-y-2 text-sm'>
-              <li>• Met WCAG 2.1 AA accessibility standards</li>
-              <li>• Improved page load times by 20%</li>
-              <li>• Implemented responsive design best practices</li>
+              <li>• Meet WCAG 2.1 AA accessibility standards</li>
+              <li>• Improve page load times by 20%</li>
+              <li>• Implement responsive design best practices</li>
             </ul>
           </div>
         </div>
